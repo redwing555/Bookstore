@@ -1,17 +1,17 @@
 # Describtion
 
-Simple Calculator built with React. It allows users to make simple calculations and read a random math-releted quote.
+Simple Bookstore App built with React/redux. It allows users to keep track of books , add new ones and remove old ones! Enjoy ! 
 
 ## Live 
-- Heroku :[ in Here ! ](https://magic-in-math.herokuapp.com/)
-- Netlify :[ in Here ! ](https://heuristic-yonath-e2cf50.netlify.app/)
+- Heroku :[ in Here ! ]()
+- Netlify :[ in Here ! ]()
 
 
 
 ## Installation
 
-- Clone the repository , use  `https://github.com/redwing555/math-magic.git` 
-- change Directory, use `cd math-magic`
+- Clone the repository , use  `https://github.com/redwing555/bookstore.git` 
+- change Directory, use `cd bookstore`
 - `npm install`
 
 ## Usage
@@ -25,6 +25,7 @@ You can now view the development server at `localhost:3000`.
 ## Built With
 
 - React.js
+- Redux
 
 
 ## Author
