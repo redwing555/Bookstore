@@ -1,76 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Describtion
 
-# Project Name
+Simple Bookstore App built with React/redux. It allows users to keep track of books , add new ones and remove old ones! Enjoy ! 
 
-> One paragraph statement about the project.
+## Live 
+- Heroku :[ in Here ! ]()
+- Netlify :[ in Here ! ]()
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+
+## Installation
+
+- Clone the repository , use  `https://github.com/redwing555/bookstore.git` 
+- change Directory, use `cd bookstore`
+- `npm install`
+
+## Usage
+
+### Development server
+- to run the Webapp you need to use `npm run start`
+
+You can now view the development server at `localhost:3000`.
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- React.js
+- Redux
 
 
-## Getting Started
+## Author
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+👤 **Houssam HICHAMI**
 
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@redwing555](https://github.com/redwing555)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/houssam-hichami-a0aab7175/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/redwing555/math-magic/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
