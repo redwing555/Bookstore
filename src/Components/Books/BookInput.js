@@ -12,6 +12,8 @@ const BookInput = () => {
     };
     if (newBook.title !== '' && newBook.author !== '') {
       dispatch(addBook(newBook));
+    } else {
+      alert('PLEASE ADD BOOK TITLE AND AUTHOR !');
     }
 
     document.getElementById('title').value = '';
