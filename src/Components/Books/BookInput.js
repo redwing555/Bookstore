@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../../redux/books/books';
 import { addBookApi } from '../../api/api';
+import styles from './bookInput.module.css';
 
 const BookInput = () => {
   const dispatch = useDispatch();
@@ -22,10 +23,11 @@ const BookInput = () => {
     document.getElementById('author').value = '';
   };
   return (
-    <form>
-      <input id="title" type="text" name="title" placeholder="Add book title" />
-      <input id="author" type="text" name="author" placeholder="Add book author" />
-      <input type="button" value="add" onClick={handleAddBook} />
+    <form className={styles.bookForm}>
+      <input id="title" className={styles.titleInput} type="text" name="title" placeholder="Add book title" />
+      <input id="author" className={styles.authorInput} type="text" name="author" placeholder="Add book author" />
+      <input id="category" className={styles.categoryInput} type="text" name="category" placeholder="Add book category" />
+      <input className={styles.addBook} type="button" value="ADD BOOK" onClick={handleAddBook} />
     </form>
   );
 };
