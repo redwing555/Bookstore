@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
@@ -13,11 +14,13 @@ const App = () => (
   <div>
     <Provider store={store}>
       <Router>
+
         <Navigation />
-        <h1> Welcome to Bookstore ! </h1>
+
         <Switch>
           <Route exact path="/">
-            <Books />
+            <Books className="books" />
+            <span className="form-title"> ADD NEW BOOK</span>
             <BookInput />
           </Route>
           <Route path="/categories">
